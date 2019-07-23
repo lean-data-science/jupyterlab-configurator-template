@@ -249,7 +249,7 @@ c.NotebookApp.ip = '*'
 #    from notebook.auth import passwd; passwd()
 #  
 #  The string should be of the form type:salt:hashed-password.
-{§disablepassword§}c.NotebookApp.password = {§password§}
+{§disablepassword§}c.NotebookApp.password = '{§password§}'
 
 ## Forces users to use a password for the Notebook server. This is useful in a
 #  multi user environment, for instance when everybody in the LAN can access each
