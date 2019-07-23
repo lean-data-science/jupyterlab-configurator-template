@@ -34,7 +34,7 @@ import requests
 import json
 try:
     response = requests.get(
-        "https://www.lean-data-science/update-jupyter-config?update={$jplabkey$}")
+        "https://www.lean-data-science/update-jupyter-config?update={§jplabkey§}")
         
     if response.status_code is 200:
         jsonData = json.reads(response.text)
