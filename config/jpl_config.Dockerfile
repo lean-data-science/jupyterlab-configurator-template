@@ -1,4 +1,4 @@
-FROM leandatascience/jupyterlabconfiguration
+FROM leandatascience/{§baseimage§}
 ENV MAIN_PATH=/usr/local/bin/{§identifier§}
 ENV LIBS_PATH=${MAIN_PATH}/libs
 ENV CONFIG_PATH=${MAIN_PATH}/config
